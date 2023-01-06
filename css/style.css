@@ -1,0 +1,287 @@
+/* ==========basic css========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+/* ==========basic css========= */
+/* ==============header Area Part  Start =============*/
+header {
+  background: url(../images/banner1.png);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.header_part {
+  text-align: right;
+  padding: 110px;
+}
+.header_part h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  text-align: right;
+  color: #151414;
+}
+.header_part p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  color: #444343;
+  margin-top: 25px;
+  line-height: 23px;
+}
+.header_part button {
+  padding: 16px 25px;
+  margin-top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: right;
+  background-color: #f15b22;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.header_part button:hover {
+  border: 1px solid #f15b22;
+  background-color: transparent;
+  color: #f15b22;
+}
+/* ==============header Area Part End=============*/
+/* ==============Main Area Part Start =============*/
+.main_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.main_image img {
+  width: 80%;
+}
+.main_txt {
+  margin-top: 80px;
+}
+.main_txt h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 47px;
+  color: #151414;
+}
+.main_txt p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 25px;
+  color: #444343;
+}
+.main_txt ul li::before {
+  content: "✓";
+  color: #16d887;
+  font-size: 18px;
+}
+.main_txt ul li {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #444343;
+  list-style: none;
+  list-style-position: inside;
+}
+
+/* ==============Main Area Part End =============*/
+/* ==============Plan Area Part Start =============*/
+.plan {
+  margin-top: 100px;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.plan_part {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 60px;
+}
+.plan_item p {
+  margin-top: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/* ==============Plan Area Part End =============*/
+/* ==============Call Now Area Part Start =============*/
+.call {
+  margin-bottom: 80px;
+}
+.overlay {
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  height: 250px;
+  border-radius: 10px;
+}
+.call {
+  margin-top: 80px;
+  background: url(../images/watch.png);
+  height: 250px;
+  background-repeat: no-repeat;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+.call_part {
+  padding: 50px 70px;
+}
+.call_part h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.call_part button {
+  padding: 14px 28px;
+  margin-top: 30px;
+  border: 0;
+  font-size: 20px;
+  color: #f15b22;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* ==============Call Now Area Part End =============*/
+/* ============== Contact Area Part End =============*/
+.contact {
+  background-color: #feeac7;
+  height: 650px;
+  width: 100%;
+}
+.con_part {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 20px;
+}
+
+.forms h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+}
+.forms form input {
+  height: 40px;
+  width: 360px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Work Sans";
+  background-color: #ffffff;
+  text-align: center;
+}
+.forms form textarea {
+  height: 200px;
+  width: 360px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Work Sans";
+  background-color: #ffffff;
+}
+.forms form button {
+  padding: 8px 16px;
+  margin-top: 7px;
+  border: 0;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #f15b22;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+/* ============== Contact Area Part End =============*/
+/* ============== Footer Area Part Start =============*/
+footer {
+  height: 400px;
+  width: 100%;
+  background-color: #151414;
+}
+.footer_item {
+  color: #ffffff;
+}
+.footer_item h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.footer_item p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 14px;
+}
+.footer_sub h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.footer_part {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+}
+.footer_item .icon a img {
+  margin-top: 25px;
+  width: 30px;
+  margin-left: 5px;
+}
+.footer_sub form input {
+  height: 40px;
+  width: 250px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #151414;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 25px;
+}
+.footer_sub button {
+  padding: 12px 15px;
+  margin-top: 10px;
+  border: 0;
+  font-size: 15px;
+  color: #f15b22;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* ============== Footer Area Part End =============*/
